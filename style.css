@@ -397,9 +397,6 @@ nav {
   nav ul {
     width: 50%;
   }
-  nav {
-    justify-content: between;
-  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -417,9 +414,6 @@ nav {
     padding-top: 20px;
     margin-left: -60px;
   }
-  nav {
-    justify-content: between;
-  }
   .side-1 img,
   .side-2 img,
   .side-3 img {
@@ -431,9 +425,6 @@ nav {
 @media screen and (max-width: 900px) {
   nav ul {
     width: 65%;
-  }
-  nav {
-    justify-content: between;
   }
   nav .logo {
     display: none;
@@ -448,7 +439,7 @@ nav {
     display: flex;
   }
   nav {
-    justify-content: between;
+    justify-content: space-around;
   }
   nav ul {
     position: absolute;
